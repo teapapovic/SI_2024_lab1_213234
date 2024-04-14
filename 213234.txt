@@ -1,0 +1,48 @@
+3.git init SI_2024_lab1_213234
+6.git add
+git commit -m "Initial commit"
+8.git add .
+git commit -m "Add starter code"
+git push
+9.git checkout -b bug1
+git checkout main
+git checkout -b bug2
+10.git checkout bug1
+11.git add .
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+12.git checkout bug2
+13. git add .
+git commit -m " Fix wrong condition in makeBigStringFrom"
+14.git checkout bug1
+15.git add .
+git commit -m "Call method filterOddLengthStrings in main class"
+16. git checkout bug2
+17.git add .
+git commit -m "Call method makeBigStringFrom in main class"
+18. git push origin main
+git push origin 1
+git push origin 2
+19.git checkout main
+20.git merge bug1
+21.git push origin main
+22.git checkout bug2
+23.git rebase main
+24.git checkout main
+25.git merge bug2
+26.git push
+27.git push --force
+28.git log > logs.txt
+git log >213234.txt
+31.$ git clone https://github.com/teapapovic/SI_2024.git
+Cloning into 'SI_2024'...
+remote: Enumerating objects: 87, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 87 (delta 21), reused 18 (delta 18), pack-reused 61
+Receiving objects: 100% (87/87), 10.36 KiB | 3.45 MiB/s, done.
+Resolving deltas: 100% (32/32), done.
+32. git add 213234.txt
+ git commit -m "Add file"
+
+
+
